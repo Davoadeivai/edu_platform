@@ -14,4 +14,4 @@ class MeetingViewSet(viewsets.ModelViewSet):
 
 # add a method to send notification when a meeting is created
 # مثلا بعد از ایجاد جلسه:
-send_notification(user, f"جلسه جدید '{meeting.title}' برای شما فعال شد!")
+# send_notification(user, f"جلسه جدید '{meeting.title}' برای شما فعال شد!")
